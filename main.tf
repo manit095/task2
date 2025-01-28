@@ -65,6 +65,7 @@ resource "azurerm_kubernetes_cluster" "aks" {
   }
 }
 
+# Create public load balancer
 resource "azurerm_lb" "public_lb" {
   name = "public-lb"
   location = azurerm_resource_group.rg.location
