@@ -1,3 +1,3 @@
 locals {
-  resource_location="East US"
+  resource_location="<location>"
 }
