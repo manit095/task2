@@ -9,8 +9,4 @@ terraform {
 
 provider "azurerm" {
   features {}
-  client_id = "<Your client id>"
-  client_secret = "<Your secret key>"
-  tenant_id = "<Your tenet id>"
-  subscription_id = "<Your subcription id>"
 }
